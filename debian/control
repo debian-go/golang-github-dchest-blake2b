@@ -1,0 +1,23 @@
+Source: golang-github-dchest-blake2b
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Free Ekanayaka <freee@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.8
+Homepage: https://github.com/dchest/blake2b
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-dchest-blake2b.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-dchest-blake2b.git
+XS-Go-Import-Path: github.com/dchest/blake2b
+
+Package: golang-github-dchest-blake2b-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-go
+Description: Go implementation of BLAKE2 (b) cryptographic hash function
+ Go implementation of BLAKE2b collision-resistant cryptographic hash function
+ created by Jean-Philippe Aumasson, Samuel Neves, Zooko Wilcox-O'Hearn, and
+ Christian Winnerlein (see https://blake2.net).

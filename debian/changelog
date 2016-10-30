@@ -1,0 +1,5 @@
+golang-github-dchest-blake2b (0.0~git20151022.0.3c8c640-1) unstable; urgency=medium
+
+  * Initial release (Closes: 847705)
+
+ -- Free Ekanayaka <freee@debian.org>  Sun, 30 Oct 2016 15:30:12 +0000
