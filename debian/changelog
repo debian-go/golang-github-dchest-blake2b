@@ -1,3 +1,9 @@
+golang-github-dchest-blake2b (0.0~git20170307.0.060063-1-1) unstable; urgency=medium
+
+  * New upstream version 0.0~git20170307.0.060063-1
+
+ -- Free Ekanayaka <freee@debian.org>  Tue, 31 Oct 2017 21:08:26 +0000
+
 golang-github-dchest-blake2b (0.0~git20151022.0.3c8c640-1) unstable; urgency=medium
 
   * Initial release (Closes: 847705)
